@@ -20,6 +20,7 @@ let headerHTML = `
 
 // We'll use document.write() for immediate visual feedback
 document.write(headerHTML);
+//document.getElementById("generated-header").innerHTML = headerHTML;
 
 // build the skills section
 // This uses a simple for loop (they know array.length and array[i])
